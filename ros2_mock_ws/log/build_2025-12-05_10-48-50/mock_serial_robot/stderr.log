@@ -1,0 +1,7 @@
+[01m[K/home/jayanth/ros2_mock_ws/src/mock_serial_robot/src/mock_system.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kmock_serial_robot/mock_system.hpp: No such file or directory
+    1 | #include [01;31m[K"mock_serial_robot/mock_system.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/mock_system.dir/build.make:76: CMakeFiles/mock_system.dir/src/mock_system.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/mock_system.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

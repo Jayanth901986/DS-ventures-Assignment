@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>mock_serial_robot</name>
+  <version>0.0.1</version>
+  <description>Mock serial ros2_control hardware interface</description>
+
+  <maintainer email="jk0721585@gmail.com">jayanth</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <build_depend>rclcpp</build_depend>
+  <build_depend>pluginlib</build_depend>
+  <build_depend>hardware_interface</build_depend>
+  <build_depend>ros2_control</build_depend>
+
+  <exec_depend>rclcpp</exec_depend>
+  <exec_depend>pluginlib</exec_depend>
+  <exec_depend>hardware_interface</exec_depend>
+  <exec_depend>ros2_control</exec_depend>
+
+  <exec_depend>controller_manager</exec_depend>
+  <exec_depend>joint_state_broadcaster</exec_depend>
+  <exec_depend>joint_trajectory_controller</exec_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+    <pluginlib plugin="${prefix}/mock_system_plugin.xml"/>
+  </export>
+</package>
+

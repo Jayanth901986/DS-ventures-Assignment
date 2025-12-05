@@ -1,0 +1,132 @@
+[0.000000] (-) TimerEvent: {}
+[0.000185] (mock_serial_robot) JobQueued: {'identifier': 'mock_serial_robot', 'dependencies': OrderedDict()}
+[0.000232] (mock_serial_robot) JobStarted: {'identifier': 'mock_serial_robot'}
+[0.009059] (mock_serial_robot) JobProgress: {'identifier': 'mock_serial_robot', 'progress': 'cmake'}
+[0.009618] (mock_serial_robot) Command: {'cmd': ['/usr/bin/cmake', '/home/jayanth/ros2_mock_ws/src/mock_serial_robot', '-DCMAKE_INSTALL_PREFIX=/home/jayanth/ros2_mock_ws/install/mock_serial_robot'], 'cwd': '/home/jayanth/ros2_mock_ws/build/mock_serial_robot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'jayanth'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jayanth/ros2_mock_ws/install/mock_serial_robot/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jayanth'), ('OLDPWD', '/home/jayanth/ros2_mock_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1524'), ('SYSTEMD_EXEC_PID', '1859'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '16748'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/jayanth/ros2_mock_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jayanth'), ('JOURNAL_STREAM', '8:12143'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jayanth'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/jayanth/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jayanth-ThinkPad-T470:@/tmp/.ICE-unix/1660,unix/jayanth-ThinkPad-T470:/tmp/.ICE-unix/1660'), ('INVOCATION_ID', 'c3e3fcc7d0bb47d9a6b03f3e96499eac'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.87P6G3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jayanth/ros2_mock_ws/install/mock_serial_robot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:2b628e78-7c34-4b07-8d97-eb7d99414aed'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jayanth/ros2_mock_ws/build/mock_serial_robot'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/jayanth/ros2_mock_ws/install/mock_serial_robot:/opt/ros/humble')]), 'shell': False}
+[0.069590] (mock_serial_robot) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099354] (-) TimerEvent: {}
+[0.142687] (mock_serial_robot) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.150099] (mock_serial_robot) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199428] (-) TimerEvent: {}
+[0.221102] (mock_serial_robot) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.230117] (mock_serial_robot) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.230464] (mock_serial_robot) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.230866] (mock_serial_robot) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.233879] (mock_serial_robot) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.299528] (-) TimerEvent: {}
+[0.319598] (mock_serial_robot) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.330530] (mock_serial_robot) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.330936] (mock_serial_robot) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.331756] (mock_serial_robot) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.335871] (mock_serial_robot) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.399646] (-) TimerEvent: {}
+[0.498377] (mock_serial_robot) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.499751] (-) TimerEvent: {}
+[0.598892] (mock_serial_robot) StdoutLine: {'line': b'-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.599867] (-) TimerEvent: {}
+[0.647806] (mock_serial_robot) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.653769] (mock_serial_robot) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.663220] (mock_serial_robot) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.676481] (mock_serial_robot) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.694645] (mock_serial_robot) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.699998] (-) TimerEvent: {}
+[0.747346] (mock_serial_robot) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.750534] (mock_serial_robot) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.800098] (-) TimerEvent: {}
+[0.849299] (mock_serial_robot) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.879061] (mock_serial_robot) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.900224] (-) TimerEvent: {}
+[0.924015] (mock_serial_robot) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.934682] (mock_serial_robot) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.000351] (-) TimerEvent: {}
+[1.008465] (mock_serial_robot) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.009126] (mock_serial_robot) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.088648] (mock_serial_robot) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.090235] (mock_serial_robot) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.100444] (-) TimerEvent: {}
+[1.150563] (mock_serial_robot) StdoutLine: {'line': b'-- Found hardware_interface: 2.52.0 (/opt/ros/humble/share/hardware_interface/cmake)\n'}
+[1.200545] (-) TimerEvent: {}
+[1.300852] (-) TimerEvent: {}
+[1.320456] (mock_serial_robot) StdoutLine: {'line': b'-- Found ros2_control: 2.52.0 (/opt/ros/humble/share/ros2_control/cmake)\n'}
+[1.391237] (mock_serial_robot) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.400988] (-) TimerEvent: {}
+[1.408432] (mock_serial_robot) StdoutLine: {'line': b'-- Generating done\n'}
+[1.416154] (mock_serial_robot) StdoutLine: {'line': b'-- Build files have been written to: /home/jayanth/ros2_mock_ws/build/mock_serial_robot\n'}
+[1.427229] (mock_serial_robot) CommandEnded: {'returncode': 0}
+[1.427927] (mock_serial_robot) JobProgress: {'identifier': 'mock_serial_robot', 'progress': 'build'}
+[1.429301] (mock_serial_robot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jayanth/ros2_mock_ws/build/mock_serial_robot', '--', '-j4', '-l4'], 'cwd': '/home/jayanth/ros2_mock_ws/build/mock_serial_robot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'jayanth'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jayanth/ros2_mock_ws/install/mock_serial_robot/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jayanth'), ('OLDPWD', '/home/jayanth/ros2_mock_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1524'), ('SYSTEMD_EXEC_PID', '1859'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '16748'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/jayanth/ros2_mock_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jayanth'), ('JOURNAL_STREAM', '8:12143'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jayanth'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/jayanth/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jayanth-ThinkPad-T470:@/tmp/.ICE-unix/1660,unix/jayanth-ThinkPad-T470:/tmp/.ICE-unix/1660'), ('INVOCATION_ID', 'c3e3fcc7d0bb47d9a6b03f3e96499eac'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.87P6G3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jayanth/ros2_mock_ws/install/mock_serial_robot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:2b628e78-7c34-4b07-8d97-eb7d99414aed'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jayanth/ros2_mock_ws/build/mock_serial_robot'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/jayanth/ros2_mock_ws/install/mock_serial_robot:/opt/ros/humble')]), 'shell': False}
+[1.481690] (mock_serial_robot) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/mock_system.dir/src/mock_system.cpp.o\x1b[0m\n'}
+[1.501098] (-) TimerEvent: {}
+[1.601437] (-) TimerEvent: {}
+[1.701773] (-) TimerEvent: {}
+[1.802098] (-) TimerEvent: {}
+[1.902418] (-) TimerEvent: {}
+[2.002714] (-) TimerEvent: {}
+[2.103069] (-) TimerEvent: {}
+[2.203373] (-) TimerEvent: {}
+[2.303705] (-) TimerEvent: {}
+[2.404016] (-) TimerEvent: {}
+[2.504327] (-) TimerEvent: {}
+[2.604626] (-) TimerEvent: {}
+[2.704934] (-) TimerEvent: {}
+[2.805262] (-) TimerEvent: {}
+[2.905565] (-) TimerEvent: {}
+[3.005863] (-) TimerEvent: {}
+[3.106149] (-) TimerEvent: {}
+[3.206455] (-) TimerEvent: {}
+[3.306765] (-) TimerEvent: {}
+[3.407109] (-) TimerEvent: {}
+[3.507368] (-) TimerEvent: {}
+[3.607665] (-) TimerEvent: {}
+[3.707957] (-) TimerEvent: {}
+[3.808272] (-) TimerEvent: {}
+[3.908607] (-) TimerEvent: {}
+[4.008956] (-) TimerEvent: {}
+[4.109323] (-) TimerEvent: {}
+[4.209658] (-) TimerEvent: {}
+[4.309979] (-) TimerEvent: {}
+[4.410310] (-) TimerEvent: {}
+[4.510611] (-) TimerEvent: {}
+[4.610977] (-) TimerEvent: {}
+[4.711368] (-) TimerEvent: {}
+[4.811707] (-) TimerEvent: {}
+[4.912042] (-) TimerEvent: {}
+[4.957005] (mock_serial_robot) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libmock_system.so\x1b[0m\n'}
+[5.012181] (-) TimerEvent: {}
+[5.107903] (mock_serial_robot) StdoutLine: {'line': b'[100%] Built target mock_system\n'}
+[5.112288] (-) TimerEvent: {}
+[5.119799] (mock_serial_robot) CommandEnded: {'returncode': 0}
+[5.120687] (mock_serial_robot) JobProgress: {'identifier': 'mock_serial_robot', 'progress': 'install'}
+[5.129724] (mock_serial_robot) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jayanth/ros2_mock_ws/build/mock_serial_robot'], 'cwd': '/home/jayanth/ros2_mock_ws/build/mock_serial_robot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'jayanth'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jayanth/ros2_mock_ws/install/mock_serial_robot/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jayanth'), ('OLDPWD', '/home/jayanth/ros2_mock_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1524'), ('SYSTEMD_EXEC_PID', '1859'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '16748'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/jayanth/ros2_mock_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jayanth'), ('JOURNAL_STREAM', '8:12143'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jayanth'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/jayanth/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jayanth-ThinkPad-T470:@/tmp/.ICE-unix/1660,unix/jayanth-ThinkPad-T470:/tmp/.ICE-unix/1660'), ('INVOCATION_ID', 'c3e3fcc7d0bb47d9a6b03f3e96499eac'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.87P6G3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jayanth/ros2_mock_ws/install/mock_serial_robot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:2b628e78-7c34-4b07-8d97-eb7d99414aed'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jayanth/ros2_mock_ws/build/mock_serial_robot'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/jayanth/ros2_mock_ws/install/mock_serial_robot:/opt/ros/humble')]), 'shell': False}
+[5.137698] (mock_serial_robot) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.137962] (mock_serial_robot) StdoutLine: {'line': b'-- Installing: /home/jayanth/ros2_mock_ws/install/mock_serial_robot/share/mock_serial_robot/mock_system_plugin.xml\n'}
+[5.138152] (mock_serial_robot) StdoutLine: {'line': b'-- Installing: /home/jayanth/ros2_mock_ws/install/mock_serial_robot/lib/libmock_system.so\n'}
+[5.139471] (mock_serial_robot) StdoutLine: {'line': b'-- Set runtime path of "/home/jayanth/ros2_mock_ws/install/mock_serial_robot/lib/libmock_system.so" to ""\n'}
+[5.139859] (mock_serial_robot) StdoutLine: {'line': b'-- Installing: /home/jayanth/ros2_mock_ws/install/mock_serial_robot/include\n'}
+[5.140192] (mock_serial_robot) StdoutLine: {'line': b'-- Installing: /home/jayanth/ros2_mock_ws/install/mock_serial_robot/include/mock_serial_robot\n'}
+[5.140436] (mock_serial_robot) StdoutLine: {'line': b'-- Installing: /home/jayanth/ros2_mock_ws/install/mock_serial_robot/include/mock_serial_robot/mock_system.hpp\n'}
+[5.140577] (mock_serial_robot) StdoutLine: {'line': b'-- Installing: /home/jayanth/ros2_mock_ws/install/mock_serial_robot/include/mock_serial_robot/mock_driver.hpp\n'}
+[5.140638] (mock_serial_robot) StdoutLine: {'line': b'-- Up-to-date: /home/jayanth/ros2_mock_ws/install/mock_serial_robot/share/mock_serial_robot/mock_system_plugin.xml\n'}
+[5.140693] (mock_serial_robot) StdoutLine: {'line': b'-- Up-to-date: /home/jayanth/ros2_mock_ws/install/mock_serial_robot/share/mock_serial_robot/\n'}
+[5.140788] (mock_serial_robot) StdoutLine: {'line': b'-- Installing: /home/jayanth/ros2_mock_ws/install/mock_serial_robot/share/mock_serial_robot//mock_robot.launch.py\n'}
+[5.140851] (mock_serial_robot) StdoutLine: {'line': b'-- Up-to-date: /home/jayanth/ros2_mock_ws/install/mock_serial_robot/share/mock_serial_robot/\n'}
+[5.140903] (mock_serial_robot) StdoutLine: {'line': b'-- Installing: /home/jayanth/ros2_mock_ws/install/mock_serial_robot/share/mock_serial_robot//mock_robot.urdf.xacro\n'}
+[5.141000] (mock_serial_robot) StdoutLine: {'line': b'-- Installing: /home/jayanth/ros2_mock_ws/install/mock_serial_robot/share/ament_index/resource_index/package_run_dependencies/mock_serial_robot\n'}
+[5.141146] (mock_serial_robot) StdoutLine: {'line': b'-- Installing: /home/jayanth/ros2_mock_ws/install/mock_serial_robot/share/ament_index/resource_index/parent_prefix_path/mock_serial_robot\n'}
+[5.141310] (mock_serial_robot) StdoutLine: {'line': b'-- Installing: /home/jayanth/ros2_mock_ws/install/mock_serial_robot/share/mock_serial_robot/environment/ament_prefix_path.sh\n'}
+[5.141449] (mock_serial_robot) StdoutLine: {'line': b'-- Installing: /home/jayanth/ros2_mock_ws/install/mock_serial_robot/share/mock_serial_robot/environment/ament_prefix_path.dsv\n'}
+[5.141596] (mock_serial_robot) StdoutLine: {'line': b'-- Installing: /home/jayanth/ros2_mock_ws/install/mock_serial_robot/share/mock_serial_robot/environment/path.sh\n'}
+[5.141756] (mock_serial_robot) StdoutLine: {'line': b'-- Installing: /home/jayanth/ros2_mock_ws/install/mock_serial_robot/share/mock_serial_robot/environment/path.dsv\n'}
+[5.141858] (mock_serial_robot) StdoutLine: {'line': b'-- Installing: /home/jayanth/ros2_mock_ws/install/mock_serial_robot/share/mock_serial_robot/local_setup.bash\n'}
+[5.142002] (mock_serial_robot) StdoutLine: {'line': b'-- Installing: /home/jayanth/ros2_mock_ws/install/mock_serial_robot/share/mock_serial_robot/local_setup.sh\n'}
+[5.142148] (mock_serial_robot) StdoutLine: {'line': b'-- Installing: /home/jayanth/ros2_mock_ws/install/mock_serial_robot/share/mock_serial_robot/local_setup.zsh\n'}
+[5.142303] (mock_serial_robot) StdoutLine: {'line': b'-- Installing: /home/jayanth/ros2_mock_ws/install/mock_serial_robot/share/mock_serial_robot/local_setup.dsv\n'}
+[5.142433] (mock_serial_robot) StdoutLine: {'line': b'-- Installing: /home/jayanth/ros2_mock_ws/install/mock_serial_robot/share/mock_serial_robot/package.dsv\n'}
+[5.142554] (mock_serial_robot) StdoutLine: {'line': b'-- Installing: /home/jayanth/ros2_mock_ws/install/mock_serial_robot/share/ament_index/resource_index/packages/mock_serial_robot\n'}
+[5.142687] (mock_serial_robot) StdoutLine: {'line': b'-- Installing: /home/jayanth/ros2_mock_ws/install/mock_serial_robot/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/mock_serial_robot\n'}
+[5.142846] (mock_serial_robot) StdoutLine: {'line': b'-- Installing: /home/jayanth/ros2_mock_ws/install/mock_serial_robot/share/mock_serial_robot/cmake/mock_serial_robotConfig.cmake\n'}
+[5.142977] (mock_serial_robot) StdoutLine: {'line': b'-- Installing: /home/jayanth/ros2_mock_ws/install/mock_serial_robot/share/mock_serial_robot/cmake/mock_serial_robotConfig-version.cmake\n'}
+[5.143107] (mock_serial_robot) StdoutLine: {'line': b'-- Installing: /home/jayanth/ros2_mock_ws/install/mock_serial_robot/share/mock_serial_robot/package.xml\n'}
+[5.145212] (mock_serial_robot) CommandEnded: {'returncode': 0}
+[5.164934] (mock_serial_robot) JobEnded: {'identifier': 'mock_serial_robot', 'rc': 0}
+[5.165880] (-) EventReactorShutdown: {}

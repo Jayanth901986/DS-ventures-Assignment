@@ -1,0 +1,4 @@
+source;share/mock_serial_robot/local_setup.bash
+source;share/mock_serial_robot/local_setup.dsv
+source;share/mock_serial_robot/local_setup.sh
+source;share/mock_serial_robot/local_setup.zsh

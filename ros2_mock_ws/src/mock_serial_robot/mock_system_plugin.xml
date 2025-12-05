@@ -1,0 +1,7 @@
+<library path="mock_system">
+  <class type="mock_serial_robot::MockSystem"
+         base_class_type="hardware_interface::SystemInterface">
+    <description>Mock serial hardware interface</description>
+  </class>
+</library>
+

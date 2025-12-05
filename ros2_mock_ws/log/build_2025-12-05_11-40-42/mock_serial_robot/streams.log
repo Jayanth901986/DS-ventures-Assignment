@@ -1,0 +1,12 @@
+[0.012s] Invoking command in '/home/jayanth/ros2_mock_ws/build/mock_serial_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jayanth/ros2_mock_ws/build/mock_serial_robot -- -j4 -l4
+[0.070s] [100%] Built target mock_system
+[0.082s] Invoked command in '/home/jayanth/ros2_mock_ws/build/mock_serial_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jayanth/ros2_mock_ws/build/mock_serial_robot -- -j4 -l4
+[0.092s] Invoking command in '/home/jayanth/ros2_mock_ws/build/mock_serial_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jayanth/ros2_mock_ws/build/mock_serial_robot
+[0.100s] -- Install configuration: ""
+[0.100s] [31mCMake Error at cmake_install.cmake:46 (file):
+[0.100s]   file INSTALL cannot find
+[0.100s]   "/home/jayanth/ros2_mock_ws/src/mock_serial_robot/mock_system_plugin.xml":
+[0.101s]   No such file or directory.
+[0.101s] 
+[0.101s] [0m
+[0.102s] Invoked command in '/home/jayanth/ros2_mock_ws/build/mock_serial_robot' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jayanth/ros2_mock_ws/build/mock_serial_robot
